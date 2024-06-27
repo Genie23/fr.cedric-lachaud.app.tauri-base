@@ -1,0 +1,67 @@
+{
+  "build": {
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Tauri Base",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "windows": [
+      {
+        "title": "Tauri Base",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "Cédric LACHAUD - 2024",
+      "targets": "all",
+      "identifier": "fr.cedric-lachaud.app.tauri-base",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "macOS": {
+        "minimumSystemVersion": "10.13"
+      },
+      "windows": {
+        "allowDowngrades": true,
+        "nsis": {
+          "languages": ["French", "English"],
+          "displayLanguageSelector": true
+        },
+        "wix": {
+          "language": ["fr-FR", "en-US"]
+        }
+      }
+    },
+    "updater": {
+      "active": true,
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDZEOTc0ODExNkYzQTQ4QzYKUldUR1NEcHZFVWlYYldWdmtKclJjeDhqYUE5R3pTRHM2OXJzcmk0RmdGT2NDZUJnN3YwNkdMcmMK",
+      "windows": {
+        "installMode": "passive",
+        "installerArgs": []
+      }
+    }
+  }
+}
