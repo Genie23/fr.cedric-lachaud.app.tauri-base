@@ -31,7 +31,7 @@
       "active": true,
       "category": "DeveloperTool",
       "copyright": "Cédric LACHAUD - 2024",
-      "targets": ["msi", "app", "appimage"],
+      "targets": ["msi", "app", "appimage", "dmg", "updater"],
       "identifier": "fr.cedric-lachaud.app.tauri-base",
       "icon": [
         "icons/32x32.png",
