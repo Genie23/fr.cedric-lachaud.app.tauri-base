@@ -31,7 +31,7 @@
       "active": true,
       "category": "DeveloperTool",
       "copyright": "Cédric LACHAUD - 2024",
-      "targets": ["msi", "app", "appimage", "dmg", "updater"],
+      "targets": "all",
       "identifier": "fr.cedric-lachaud.app.tauri-base",
       "icon": [
         "icons/32x32.png",
@@ -40,11 +40,21 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
+      "deb": {
+        "depends": []
+      },
       "macOS": {
-        "minimumSystemVersion": "10.13"
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
       },
       "windows": {
         "allowDowngrades": true,
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
         "nsis": {
           "languages": ["French", "English"],
           "displayLanguageSelector": true
