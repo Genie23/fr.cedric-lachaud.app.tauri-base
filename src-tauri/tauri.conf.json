@@ -57,7 +57,7 @@
     "updater": {
       "active": true,
       "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDZEOTc0ODExNkYzQTQ4QzYKUldUR1NEcHZFVWlYYldWdmtKclJjeDhqYUE5R3pTRHM2OXJzcmk0RmdGT2NDZUJnN3YwNkdMcmMK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDg4ODczRTM3REYxMDNGNTEKUldSUlB4RGZOejZIaUhFZzMvdGNsSU1FOVZ2TVplUW9JR0Z4bE1CNEJWa3lISnZrQUVMT0pUdGMK",
       "windows": {
         "installMode": "passive",
         "installerArgs": []
