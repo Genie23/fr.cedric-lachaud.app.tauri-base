@@ -1,10 +1,6 @@
 {
   "name": "tauri-base",
   "private": true,
-<<<<<<< development
-=======
-  "version": "0.0.2",
->>>>>>> bd7274a Revert "Changements dans l'interface de l'application"
   "type": "module",
   "scripts": {
     "dev": "vite",
