@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Bienvenue sur Tauri !</h1>
+      <h1>Welcome to Tauri!</h1>
 
       <div className="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -28,7 +28,7 @@ function App() {
         </a>
       </div>
 
-      <p>Cliquez sur les logos de Tauri, Vite, et React pour en apprendre plus.</p>
+      <p>Click on the Tauri, Vite, and React logos to learn more.</p>
 
       <form
         className="row"
@@ -40,9 +40,9 @@ function App() {
         <input
           id="greet-input"
           onChange={(e) => setName(e.currentTarget.value)}
-          placeholder="Entrez votre nom..."
+          placeholder="Enter a name..."
         />
-        <button type="submit">C'est parti</button>
+        <button type="submit">Greet</button>
       </form>
 
       <p>{greetMsg}</p>
